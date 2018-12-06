@@ -1,0 +1,457 @@
+2018-12-05T00:20:16.928Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-12-05T00:20:16.928Z [[32minfo[39m] 	API key: cf2038a3-013f-4b20-9362-8f0c1b91919d
+2018-12-05T00:20:16.929Z [[32minfo[39m] 	Project name: TAEP-homepage
+2018-12-05T00:20:16.929Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-12-05T00:20:16.929Z [[32minfo[39m] 	Starting chromeDriver /Users/delight/.trueautomation/chromedriver/chromedriver_mac64_2.44 on port 9516...
+2018-12-05T00:20:17.481Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-12-05T00:20:18.939Z [[32minfo[39m] 	0 Create session response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5)","userDataDir":"/var/folders/s2/z5gqzlh91gq2thydw9h4p3yh0000gn/T/.org.chromium.Chromium.gfPGmG"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:62974"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"ignore","version":"70.0.3538.110","webStorageEnabled":true}}
+2018-12-05T00:20:18.957Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/url:  {"url":"https://trueautomation.io/"}
+2018-12-05T00:20:24.591Z [[32minfo[39m] 	2 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"css selector","value":"__taonly__trueautomationio:home:loginBtn__taonly__"}
+2018-12-05T00:20:24.773Z [[32minfo[39m] 	2 Enum nodes response:  {"sessionId":"4d9de2fd06c2bd3b41e1190e2c
+2018-12-05T00:20:24.985Z [[32minfo[39m] 	2 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[1]/*[1]/*[2]/*[1]/*[2]/*[1]","using":"xpath"}
+2018-12-05T00:20:25.002Z [[32minfo[39m] 	2 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.5661217340869933-1"}]}
+2018-12-05T00:20:25.005Z [[32minfo[39m] 	3 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.5661217340869933-1/displayed:  {}
+2018-12-05T00:20:25.025Z [[32minfo[39m] 	4 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.5661217340869933-1/click:  {}
+2018-12-05T00:20:27.099Z [[32minfo[39m] 	5 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))][((((./@id = '__taonly__trueautomationio:auth:signin:EmailField__taonly__') or (./@name = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')) or (./@placeholder = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')) or (./@id = //label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')]/@for))] | .//label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')]//./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))]"}
+2018-12-05T00:20:27.120Z [[32minfo[39m] 	5 Enum nodes response:  {"sessionId":"4d9de2fd06c2bd3b41e1190e2c
+2018-12-05T00:20:27.145Z [[32minfo[39m] 	5 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[2]/*[1]","using":"xpath"}
+2018-12-05T00:20:27.165Z [[32minfo[39m] 	5 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.44383631906192145-1"}]}
+2018-12-05T00:20:27.168Z [[32minfo[39m] 	6 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/displayed:  {}
+2018-12-05T00:20:27.187Z [[32minfo[39m] 	7 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/enabled:  {}
+2018-12-05T00:20:27.201Z [[32minfo[39m] 	8 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/name:  {}
+2018-12-05T00:20:27.209Z [[32minfo[39m] 	9 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/attribute/readonly:  {}
+2018-12-05T00:20:27.219Z [[32minfo[39m] 	10 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/name:  {}
+2018-12-05T00:20:27.227Z [[32minfo[39m] 	11 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/attribute/type:  {}
+2018-12-05T00:20:27.237Z [[32minfo[39m] 	12 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.44383631906192145-1"}]}
+2018-12-05T00:20:27.247Z [[32minfo[39m] 	13 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-1/value:  {"value":["stas.odessa@@ua.fm"]}
+2018-12-05T00:20:27.427Z [[32minfo[39m] 	14 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))][((((./@id = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__') or (./@name = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')) or (./@placeholder = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')) or (./@id = //label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')]/@for))] | .//label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')]//./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))]"}
+2018-12-05T00:20:27.444Z [[32minfo[39m] 	14 Enum nodes response:  {"sessionId":"4d9de2fd06c2bd3b41e1190e2c
+2018-12-05T00:20:27.464Z [[32minfo[39m] 	14 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[3]/*[1]","using":"xpath"}
+2018-12-05T00:20:27.483Z [[32minfo[39m] 	14 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.44383631906192145-2"}]}
+2018-12-05T00:20:27.486Z [[32minfo[39m] 	15 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/displayed:  {}
+2018-12-05T00:20:27.505Z [[32minfo[39m] 	16 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/enabled:  {}
+2018-12-05T00:20:27.518Z [[32minfo[39m] 	17 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/name:  {}
+2018-12-05T00:20:27.527Z [[32minfo[39m] 	18 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/attribute/readonly:  {}
+2018-12-05T00:20:27.535Z [[32minfo[39m] 	19 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/name:  {}
+2018-12-05T00:20:27.543Z [[32minfo[39m] 	20 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/attribute/type:  {}
+2018-12-05T00:20:27.553Z [[32minfo[39m] 	21 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.44383631906192145-2"}]}
+2018-12-05T00:20:27.561Z [[32minfo[39m] 	22 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-2/value:  {"value":["7167276@Ss"]}
+2018-12-05T00:20:27.624Z [[32minfo[39m] 	23 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"css selector","value":"__taonly__trueautomationio:auth:signin:LoginBtn__taonly__"}
+2018-12-05T00:20:27.640Z [[32minfo[39m] 	23 Enum nodes response:  {"sessionId":"4d9de2fd06c2bd3b41e1190e2c
+2018-12-05T00:20:27.656Z [[32minfo[39m] 	23 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[5]","using":"xpath"}
+2018-12-05T00:20:27.673Z [[32minfo[39m] 	23 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.44383631906192145-3"}]}
+2018-12-05T00:20:27.675Z [[32minfo[39m] 	24 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-3/displayed:  {}
+2018-12-05T00:20:27.692Z [[32minfo[39m] 	25 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.44383631906192145-3/click:  {}
+2018-12-05T00:20:28.516Z [[32minfo[39m] 	26 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.516Z [[32minfo[39m] 	26 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.544Z [[32minfo[39m] 	26 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.547Z [[32minfo[39m] 	27 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.582Z [[32minfo[39m] 	28 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:28.634Z [[32minfo[39m] 	29 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.634Z [[32minfo[39m] 	29 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.649Z [[32minfo[39m] 	29 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.652Z [[32minfo[39m] 	30 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.665Z [[32minfo[39m] 	31 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.729Z [[32minfo[39m] 	32 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.729Z [[32minfo[39m] 	32 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.738Z [[32minfo[39m] 	32 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.740Z [[32minfo[39m] 	33 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.751Z [[32minfo[39m] 	34 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:28.770Z [[32minfo[39m] 	35 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.770Z [[32minfo[39m] 	35 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.778Z [[32minfo[39m] 	35 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.783Z [[32minfo[39m] 	36 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.793Z [[32minfo[39m] 	37 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.856Z [[32minfo[39m] 	38 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.856Z [[32minfo[39m] 	38 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.865Z [[32minfo[39m] 	38 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.867Z [[32minfo[39m] 	39 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.878Z [[32minfo[39m] 	40 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:28.902Z [[32minfo[39m] 	41 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.902Z [[32minfo[39m] 	41 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.911Z [[32minfo[39m] 	41 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.914Z [[32minfo[39m] 	42 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:28.925Z [[32minfo[39m] 	43 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.985Z [[32minfo[39m] 	44 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:28.986Z [[32minfo[39m] 	44 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:28.995Z [[32minfo[39m] 	44 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:28.998Z [[32minfo[39m] 	45 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.008Z [[32minfo[39m] 	46 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.026Z [[32minfo[39m] 	47 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.026Z [[32minfo[39m] 	47 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.035Z [[32minfo[39m] 	47 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.037Z [[32minfo[39m] 	48 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.048Z [[32minfo[39m] 	49 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.112Z [[32minfo[39m] 	50 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.112Z [[32minfo[39m] 	50 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.124Z [[32minfo[39m] 	50 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.126Z [[32minfo[39m] 	51 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.139Z [[32minfo[39m] 	52 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.160Z [[32minfo[39m] 	53 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.160Z [[32minfo[39m] 	53 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.169Z [[32minfo[39m] 	53 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.171Z [[32minfo[39m] 	54 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.182Z [[32minfo[39m] 	55 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.245Z [[32minfo[39m] 	56 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.245Z [[32minfo[39m] 	56 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.254Z [[32minfo[39m] 	56 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.257Z [[32minfo[39m] 	57 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.267Z [[32minfo[39m] 	58 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.286Z [[32minfo[39m] 	59 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.287Z [[32minfo[39m] 	59 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.295Z [[32minfo[39m] 	59 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.298Z [[32minfo[39m] 	60 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.309Z [[32minfo[39m] 	61 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.373Z [[32minfo[39m] 	62 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.373Z [[32minfo[39m] 	62 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.382Z [[32minfo[39m] 	62 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.385Z [[32minfo[39m] 	63 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.396Z [[32minfo[39m] 	64 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.415Z [[32minfo[39m] 	65 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.416Z [[32minfo[39m] 	65 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.425Z [[32minfo[39m] 	65 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.428Z [[32minfo[39m] 	66 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.440Z [[32minfo[39m] 	67 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.501Z [[32minfo[39m] 	68 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.501Z [[32minfo[39m] 	68 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.510Z [[32minfo[39m] 	68 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.513Z [[32minfo[39m] 	69 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.523Z [[32minfo[39m] 	70 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.543Z [[32minfo[39m] 	71 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.544Z [[32minfo[39m] 	71 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.552Z [[32minfo[39m] 	71 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.555Z [[32minfo[39m] 	72 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.567Z [[32minfo[39m] 	73 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.629Z [[32minfo[39m] 	74 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.629Z [[32minfo[39m] 	74 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.638Z [[32minfo[39m] 	74 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.641Z [[32minfo[39m] 	75 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.651Z [[32minfo[39m] 	76 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.674Z [[32minfo[39m] 	77 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.674Z [[32minfo[39m] 	77 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.683Z [[32minfo[39m] 	77 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.686Z [[32minfo[39m] 	78 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.697Z [[32minfo[39m] 	79 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.762Z [[32minfo[39m] 	80 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.762Z [[32minfo[39m] 	80 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.770Z [[32minfo[39m] 	80 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.772Z [[32minfo[39m] 	81 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.782Z [[32minfo[39m] 	82 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.800Z [[32minfo[39m] 	83 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.800Z [[32minfo[39m] 	83 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.808Z [[32minfo[39m] 	83 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.810Z [[32minfo[39m] 	84 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.821Z [[32minfo[39m] 	85 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.884Z [[32minfo[39m] 	86 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.884Z [[32minfo[39m] 	86 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.894Z [[32minfo[39m] 	86 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.896Z [[32minfo[39m] 	87 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.906Z [[32minfo[39m] 	88 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:29.926Z [[32minfo[39m] 	89 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:29.926Z [[32minfo[39m] 	89 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:29.934Z [[32minfo[39m] 	89 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:29.936Z [[32minfo[39m] 	90 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:29.947Z [[32minfo[39m] 	91 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.007Z [[32minfo[39m] 	92 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.007Z [[32minfo[39m] 	92 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.016Z [[32minfo[39m] 	92 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.018Z [[32minfo[39m] 	93 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.028Z [[32minfo[39m] 	94 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.047Z [[32minfo[39m] 	95 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.047Z [[32minfo[39m] 	95 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.059Z [[32minfo[39m] 	95 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.061Z [[32minfo[39m] 	96 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.072Z [[32minfo[39m] 	97 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.134Z [[32minfo[39m] 	98 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.134Z [[32minfo[39m] 	98 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.143Z [[32minfo[39m] 	98 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.145Z [[32minfo[39m] 	99 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.154Z [[32minfo[39m] 	100 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.172Z [[32minfo[39m] 	101 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.172Z [[32minfo[39m] 	101 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.181Z [[32minfo[39m] 	101 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.183Z [[32minfo[39m] 	102 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.193Z [[32minfo[39m] 	103 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.255Z [[32minfo[39m] 	104 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.255Z [[32minfo[39m] 	104 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.264Z [[32minfo[39m] 	104 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.266Z [[32minfo[39m] 	105 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.275Z [[32minfo[39m] 	106 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.294Z [[32minfo[39m] 	107 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.294Z [[32minfo[39m] 	107 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.302Z [[32minfo[39m] 	107 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.305Z [[32minfo[39m] 	108 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.315Z [[32minfo[39m] 	109 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.378Z [[32minfo[39m] 	110 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.378Z [[32minfo[39m] 	110 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.387Z [[32minfo[39m] 	110 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.389Z [[32minfo[39m] 	111 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.398Z [[32minfo[39m] 	112 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.423Z [[32minfo[39m] 	113 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.423Z [[32minfo[39m] 	113 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.432Z [[32minfo[39m] 	113 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.435Z [[32minfo[39m] 	114 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.446Z [[32minfo[39m] 	115 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.505Z [[32minfo[39m] 	116 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.505Z [[32minfo[39m] 	116 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.514Z [[32minfo[39m] 	116 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.516Z [[32minfo[39m] 	117 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.526Z [[32minfo[39m] 	118 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.545Z [[32minfo[39m] 	119 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.545Z [[32minfo[39m] 	119 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.554Z [[32minfo[39m] 	119 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.557Z [[32minfo[39m] 	120 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.567Z [[32minfo[39m] 	121 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.628Z [[32minfo[39m] 	122 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.629Z [[32minfo[39m] 	122 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.638Z [[32minfo[39m] 	122 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.640Z [[32minfo[39m] 	123 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.650Z [[32minfo[39m] 	124 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.668Z [[32minfo[39m] 	125 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.668Z [[32minfo[39m] 	125 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.677Z [[32minfo[39m] 	125 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.679Z [[32minfo[39m] 	126 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.690Z [[32minfo[39m] 	127 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.749Z [[32minfo[39m] 	128 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.749Z [[32minfo[39m] 	128 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.758Z [[32minfo[39m] 	128 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.760Z [[32minfo[39m] 	129 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.770Z [[32minfo[39m] 	130 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.791Z [[32minfo[39m] 	131 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.791Z [[32minfo[39m] 	131 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.799Z [[32minfo[39m] 	131 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.802Z [[32minfo[39m] 	132 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.812Z [[32minfo[39m] 	133 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.879Z [[32minfo[39m] 	134 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.879Z [[32minfo[39m] 	134 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.888Z [[32minfo[39m] 	134 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.890Z [[32minfo[39m] 	135 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.901Z [[32minfo[39m] 	136 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:30.921Z [[32minfo[39m] 	137 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:30.921Z [[32minfo[39m] 	137 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:30.929Z [[32minfo[39m] 	137 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:30.932Z [[32minfo[39m] 	138 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:30.943Z [[32minfo[39m] 	139 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.004Z [[32minfo[39m] 	140 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.004Z [[32minfo[39m] 	140 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.013Z [[32minfo[39m] 	140 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.015Z [[32minfo[39m] 	141 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.024Z [[32minfo[39m] 	142 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.043Z [[32minfo[39m] 	143 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.044Z [[32minfo[39m] 	143 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.051Z [[32minfo[39m] 	143 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.054Z [[32minfo[39m] 	144 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.064Z [[32minfo[39m] 	145 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.128Z [[32minfo[39m] 	146 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.128Z [[32minfo[39m] 	146 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.138Z [[32minfo[39m] 	146 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.140Z [[32minfo[39m] 	147 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.152Z [[32minfo[39m] 	148 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.173Z [[32minfo[39m] 	149 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.173Z [[32minfo[39m] 	149 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.181Z [[32minfo[39m] 	149 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.183Z [[32minfo[39m] 	150 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.194Z [[32minfo[39m] 	151 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.254Z [[32minfo[39m] 	152 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.254Z [[32minfo[39m] 	152 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.263Z [[32minfo[39m] 	152 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.265Z [[32minfo[39m] 	153 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.275Z [[32minfo[39m] 	154 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.294Z [[32minfo[39m] 	155 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.295Z [[32minfo[39m] 	155 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.303Z [[32minfo[39m] 	155 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.305Z [[32minfo[39m] 	156 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.316Z [[32minfo[39m] 	157 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.379Z [[32minfo[39m] 	158 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.379Z [[32minfo[39m] 	158 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.390Z [[32minfo[39m] 	158 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.393Z [[32minfo[39m] 	159 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.403Z [[32minfo[39m] 	160 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.422Z [[32minfo[39m] 	161 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.422Z [[32minfo[39m] 	161 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.430Z [[32minfo[39m] 	161 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.433Z [[32minfo[39m] 	162 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.443Z [[32minfo[39m] 	163 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.506Z [[32minfo[39m] 	164 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.506Z [[32minfo[39m] 	164 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.516Z [[32minfo[39m] 	164 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.518Z [[32minfo[39m] 	165 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.527Z [[32minfo[39m] 	166 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.550Z [[32minfo[39m] 	167 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.550Z [[32minfo[39m] 	167 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.558Z [[32minfo[39m] 	167 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.562Z [[32minfo[39m] 	168 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.580Z [[32minfo[39m] 	169 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.645Z [[32minfo[39m] 	170 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.645Z [[32minfo[39m] 	170 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.654Z [[32minfo[39m] 	170 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.656Z [[32minfo[39m] 	171 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.667Z [[32minfo[39m] 	172 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.690Z [[32minfo[39m] 	173 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.690Z [[32minfo[39m] 	173 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.699Z [[32minfo[39m] 	173 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.701Z [[32minfo[39m] 	174 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.711Z [[32minfo[39m] 	175 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.771Z [[32minfo[39m] 	176 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.771Z [[32minfo[39m] 	176 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.780Z [[32minfo[39m] 	176 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.782Z [[32minfo[39m] 	177 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.792Z [[32minfo[39m] 	178 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.813Z [[32minfo[39m] 	179 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.813Z [[32minfo[39m] 	179 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.821Z [[32minfo[39m] 	179 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.824Z [[32minfo[39m] 	180 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.834Z [[32minfo[39m] 	181 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.896Z [[32minfo[39m] 	182 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.896Z [[32minfo[39m] 	182 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.905Z [[32minfo[39m] 	182 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.907Z [[32minfo[39m] 	183 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.917Z [[32minfo[39m] 	184 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:31.936Z [[32minfo[39m] 	185 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:31.936Z [[32minfo[39m] 	185 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:31.945Z [[32minfo[39m] 	185 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:31.947Z [[32minfo[39m] 	186 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:31.957Z [[32minfo[39m] 	187 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.017Z [[32minfo[39m] 	188 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.017Z [[32minfo[39m] 	188 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.026Z [[32minfo[39m] 	188 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.028Z [[32minfo[39m] 	189 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.038Z [[32minfo[39m] 	190 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.057Z [[32minfo[39m] 	191 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.057Z [[32minfo[39m] 	191 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.065Z [[32minfo[39m] 	191 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.067Z [[32minfo[39m] 	192 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.077Z [[32minfo[39m] 	193 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.136Z [[32minfo[39m] 	194 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.136Z [[32minfo[39m] 	194 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.146Z [[32minfo[39m] 	194 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.148Z [[32minfo[39m] 	195 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.158Z [[32minfo[39m] 	196 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.177Z [[32minfo[39m] 	197 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.177Z [[32minfo[39m] 	197 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.185Z [[32minfo[39m] 	197 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.188Z [[32minfo[39m] 	198 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.198Z [[32minfo[39m] 	199 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.262Z [[32minfo[39m] 	200 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.262Z [[32minfo[39m] 	200 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.271Z [[32minfo[39m] 	200 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.274Z [[32minfo[39m] 	201 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.284Z [[32minfo[39m] 	202 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.302Z [[32minfo[39m] 	203 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.302Z [[32minfo[39m] 	203 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.310Z [[32minfo[39m] 	203 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.313Z [[32minfo[39m] 	204 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.324Z [[32minfo[39m] 	205 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.386Z [[32minfo[39m] 	206 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.386Z [[32minfo[39m] 	206 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.395Z [[32minfo[39m] 	206 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.397Z [[32minfo[39m] 	207 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.407Z [[32minfo[39m] 	208 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.427Z [[32minfo[39m] 	209 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.427Z [[32minfo[39m] 	209 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.435Z [[32minfo[39m] 	209 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.437Z [[32minfo[39m] 	210 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.448Z [[32minfo[39m] 	211 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.508Z [[32minfo[39m] 	212 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.508Z [[32minfo[39m] 	212 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.517Z [[32minfo[39m] 	212 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.519Z [[32minfo[39m] 	213 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.529Z [[32minfo[39m] 	214 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.553Z [[32minfo[39m] 	215 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.553Z [[32minfo[39m] 	215 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.561Z [[32minfo[39m] 	215 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.563Z [[32minfo[39m] 	216 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.573Z [[32minfo[39m] 	217 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.635Z [[32minfo[39m] 	218 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.635Z [[32minfo[39m] 	218 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.644Z [[32minfo[39m] 	218 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.646Z [[32minfo[39m] 	219 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.657Z [[32minfo[39m] 	220 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.675Z [[32minfo[39m] 	221 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.675Z [[32minfo[39m] 	221 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.684Z [[32minfo[39m] 	221 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.686Z [[32minfo[39m] 	222 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.696Z [[32minfo[39m] 	223 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.757Z [[32minfo[39m] 	224 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.757Z [[32minfo[39m] 	224 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.766Z [[32minfo[39m] 	224 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.768Z [[32minfo[39m] 	225 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.778Z [[32minfo[39m] 	226 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.796Z [[32minfo[39m] 	227 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.796Z [[32minfo[39m] 	227 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.803Z [[32minfo[39m] 	227 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.805Z [[32minfo[39m] 	228 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.815Z [[32minfo[39m] 	229 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.879Z [[32minfo[39m] 	230 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.879Z [[32minfo[39m] 	230 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.888Z [[32minfo[39m] 	230 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.891Z [[32minfo[39m] 	231 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.900Z [[32minfo[39m] 	232 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:32.921Z [[32minfo[39m] 	233 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:32.921Z [[32minfo[39m] 	233 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:32.931Z [[32minfo[39m] 	233 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:32.933Z [[32minfo[39m] 	234 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:32.944Z [[32minfo[39m] 	235 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.008Z [[32minfo[39m] 	236 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.008Z [[32minfo[39m] 	236 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.018Z [[32minfo[39m] 	236 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.020Z [[32minfo[39m] 	237 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.029Z [[32minfo[39m] 	238 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:33.052Z [[32minfo[39m] 	239 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.052Z [[32minfo[39m] 	239 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.060Z [[32minfo[39m] 	239 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.062Z [[32minfo[39m] 	240 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.072Z [[32minfo[39m] 	241 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.134Z [[32minfo[39m] 	242 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.134Z [[32minfo[39m] 	242 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.143Z [[32minfo[39m] 	242 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.145Z [[32minfo[39m] 	243 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.155Z [[32minfo[39m] 	244 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:33.174Z [[32minfo[39m] 	245 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.174Z [[32minfo[39m] 	245 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.182Z [[32minfo[39m] 	245 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.184Z [[32minfo[39m] 	246 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.195Z [[32minfo[39m] 	247 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.256Z [[32minfo[39m] 	248 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.257Z [[32minfo[39m] 	248 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.265Z [[32minfo[39m] 	248 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.268Z [[32minfo[39m] 	249 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.278Z [[32minfo[39m] 	250 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:33.297Z [[32minfo[39m] 	251 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.297Z [[32minfo[39m] 	251 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.305Z [[32minfo[39m] 	251 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.307Z [[32minfo[39m] 	252 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.317Z [[32minfo[39m] 	253 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.379Z [[32minfo[39m] 	254 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.379Z [[32minfo[39m] 	254 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.388Z [[32minfo[39m] 	254 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.390Z [[32minfo[39m] 	255 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.399Z [[32minfo[39m] 	256 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:33.418Z [[32minfo[39m] 	257 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.418Z [[32minfo[39m] 	257 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.427Z [[32minfo[39m] 	257 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.429Z [[32minfo[39m] 	258 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.440Z [[32minfo[39m] 	259 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.501Z [[32minfo[39m] 	260 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.501Z [[32minfo[39m] 	260 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.510Z [[32minfo[39m] 	260 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.513Z [[32minfo[39m] 	261 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.522Z [[32minfo[39m] 	262 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/text:  {}
+2018-12-05T00:20:33.540Z [[32minfo[39m] 	263 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html"}
+2018-12-05T00:20:33.540Z [[32minfo[39m] 	263 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:20:33.548Z [[32minfo[39m] 	263 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.550Z [[32minfo[39m] 	264 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/element/0.7174935871325876-1/displayed:  {}
+2018-12-05T00:20:33.560Z [[32minfo[39m] 	265 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/execute:  {"script":"return arguments[0].textContent","args":[{"ELEMENT":"0.7174935871325876-1"}]}
+2018-12-05T00:20:33.588Z [[32minfo[39m] 	266 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/window_handles:  {}
+2018-12-05T00:20:33.593Z [[32minfo[39m] 	267 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/window:  {"name":"CDwindow-1FDE14305988848D85BB59D496155AE4"}
+2018-12-05T00:20:33.599Z [[32minfo[39m] 	268 Sending GET request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/window_handles:  {}
+2018-12-05T00:20:33.604Z [[32minfo[39m] 	269 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-12-05T00:20:33.617Z [[32minfo[39m] 	270 Sending DELETE request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/session_storage:  {}
+2018-12-05T00:20:33.623Z [[32minfo[39m] 	271 Sending DELETE request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/local_storage:  {}
+2018-12-05T00:20:33.629Z [[32minfo[39m] 	272 Sending POST request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043/url:  {"url":"about:blank"}
+2018-12-05T00:20:33.659Z [[32minfo[39m] 	273 Sending elements request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {"using":"xpath","value":"/html/body/*"}
+2018-12-05T00:20:33.659Z [[32minfo[39m] 	273 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-12-05T00:20:33.677Z [[32minfo[39m] 	273 Elements response: {"sessionId":"4d9de2fd06c2bd3b41e1190e2c82c043","status":0,"value":[]}
+2018-12-05T00:20:33.719Z [[32minfo[39m] 	274 Sending DELETE request to http://localhost:9516/session/4d9de2fd06c2bd3b41e1190e2c82c043:  {}
+2018-12-05T00:20:33.804Z [[32minfo[39m] 	Sync elements
+2018-12-05T00:20:36.167Z [[32minfo[39m] 	Stopping driver

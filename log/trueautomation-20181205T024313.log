@@ -1,0 +1,62 @@
+2018-12-05T00:43:14.892Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-12-05T00:43:14.902Z [[32minfo[39m] 	API key: cf2038a3-013f-4b20-9362-8f0c1b91919d
+2018-12-05T00:43:14.903Z [[32minfo[39m] 	Project name: TAEP-homepage
+2018-12-05T00:43:14.903Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-12-05T00:43:14.903Z [[32minfo[39m] 	Starting chromeDriver /Users/delight/.trueautomation/chromedriver/chromedriver_mac64_2.44 on port 9516...
+2018-12-05T00:43:15.498Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-12-05T00:43:16.974Z [[32minfo[39m] 	0 Create session response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5)","userDataDir":"/var/folders/s2/z5gqzlh91gq2thydw9h4p3yh0000gn/T/.org.chromium.Chromium.2Cay6J"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:53099"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"ignore","version":"70.0.3538.110","webStorageEnabled":true}}
+2018-12-05T00:43:16.996Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/url:  {"url":"https://trueautomation.io/"}
+2018-12-05T00:43:22.402Z [[32minfo[39m] 	2 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"css selector","value":"__taonly__trueautomationio:home:GetEarlyAccesBtn__taonly__"}
+2018-12-05T00:43:22.552Z [[32minfo[39m] 	2 Enum nodes response:  {"sessionId":"e013d493f4c950d89c9c16c977
+2018-12-05T00:43:22.823Z [[32minfo[39m] 	2 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[3]/*[2]/*[2]","using":"xpath"}
+2018-12-05T00:43:22.839Z [[32minfo[39m] 	2 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[{"ELEMENT":"0.2937695239325302-1"}]}
+2018-12-05T00:43:22.842Z [[32minfo[39m] 	3 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.2937695239325302-1/displayed:  {}
+2018-12-05T00:43:22.867Z [[32minfo[39m] 	4 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.2937695239325302-1/click:  {}
+2018-12-05T00:43:25.050Z [[32minfo[39m] 	5 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"xpath","value":"./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))][((((./@id = '__taonly__trueautomationio:auth:signin:EmailField__taonly__') or (./@name = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')) or (./@placeholder = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')) or (./@id = //label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')]/@for))] | .//label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:EmailField__taonly__')]//./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))]"}
+2018-12-05T00:43:25.069Z [[32minfo[39m] 	5 Enum nodes response:  {"sessionId":"e013d493f4c950d89c9c16c977
+2018-12-05T00:43:25.099Z [[32minfo[39m] 	5 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[2]/*[1]","using":"xpath"}
+2018-12-05T00:43:25.115Z [[32minfo[39m] 	5 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[{"ELEMENT":"0.3654183768163881-1"}]}
+2018-12-05T00:43:25.118Z [[32minfo[39m] 	6 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/displayed:  {}
+2018-12-05T00:43:25.138Z [[32minfo[39m] 	7 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/enabled:  {}
+2018-12-05T00:43:25.151Z [[32minfo[39m] 	8 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/name:  {}
+2018-12-05T00:43:25.159Z [[32minfo[39m] 	9 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/attribute/readonly:  {}
+2018-12-05T00:43:25.169Z [[32minfo[39m] 	10 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/name:  {}
+2018-12-05T00:43:25.176Z [[32minfo[39m] 	11 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/attribute/type:  {}
+2018-12-05T00:43:25.186Z [[32minfo[39m] 	12 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/execute:  {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.3654183768163881-1"}]}
+2018-12-05T00:43:25.195Z [[32minfo[39m] 	13 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/value:  {"value":["stas.odessa@@ua.fm"]}
+2018-12-05T00:43:25.351Z [[32minfo[39m] 	14 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"xpath","value":"./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))][((((./@id = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__') or (./@name = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')) or (./@placeholder = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')) or (./@id = //label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')]/@for))] | .//label[(normalize-space(string(.)) = '__taonly__trueautomationio:auth:signin:PasswordField__taonly__')]//./descendant::*[self::input | self::textarea][not(((((((./@type = 'submit') or (./@type = 'image')) or (./@type = 'radio')) or (./@type = 'checkbox')) or (./@type = 'hidden')) or (./@type = 'file')))]"}
+2018-12-05T00:43:25.366Z [[32minfo[39m] 	14 Enum nodes response:  {"sessionId":"e013d493f4c950d89c9c16c977
+2018-12-05T00:43:25.387Z [[32minfo[39m] 	14 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[2]/*[1]","using":"xpath"}
+2018-12-05T00:43:25.396Z [[32minfo[39m] 	14 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[{"ELEMENT":"0.3654183768163881-1"}]}
+2018-12-05T00:43:25.399Z [[32minfo[39m] 	15 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/displayed:  {}
+2018-12-05T00:43:25.411Z [[32minfo[39m] 	16 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/enabled:  {}
+2018-12-05T00:43:25.421Z [[32minfo[39m] 	17 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/name:  {}
+2018-12-05T00:43:25.429Z [[32minfo[39m] 	18 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/attribute/readonly:  {}
+2018-12-05T00:43:25.437Z [[32minfo[39m] 	19 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/name:  {}
+2018-12-05T00:43:25.445Z [[32minfo[39m] 	20 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/attribute/type:  {}
+2018-12-05T00:43:25.453Z [[32minfo[39m] 	21 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/execute:  {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.3654183768163881-1"}]}
+2018-12-05T00:43:25.461Z [[32minfo[39m] 	22 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-1/value:  {"value":["7167276@Ss"]}
+2018-12-05T00:43:25.526Z [[32minfo[39m] 	23 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"css selector","value":"__taonly__trueautomationio:auth:signin:LoginBtn__taonly__"}
+2018-12-05T00:43:25.539Z [[32minfo[39m] 	23 Enum nodes response:  {"sessionId":"e013d493f4c950d89c9c16c977
+2018-12-05T00:43:25.551Z [[32minfo[39m] 	23 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[2]/*[3]/*[4]","using":"xpath"}
+2018-12-05T00:43:25.568Z [[32minfo[39m] 	23 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[{"ELEMENT":"0.3654183768163881-2"}]}
+2018-12-05T00:43:25.570Z [[32minfo[39m] 	24 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-2/displayed:  {}
+2018-12-05T00:43:25.589Z [[32minfo[39m] 	25 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.3654183768163881-2/click:  {}
+2018-12-05T00:43:26.252Z [[32minfo[39m] 	26 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"xpath","value":"/html"}
+2018-12-05T00:43:26.253Z [[32minfo[39m] 	26 Elements locator: {"value":"/html","using":"xpath"}
+2018-12-05T00:43:26.294Z [[32minfo[39m] 	26 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[{"ELEMENT":"0.15572831983309943-1"}]}
+2018-12-05T00:43:26.306Z [[32minfo[39m] 	27 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.15572831983309943-1/displayed:  {}
+2018-12-05T00:43:26.383Z [[32minfo[39m] 	28 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/element/0.15572831983309943-1/text:  {}
+2018-12-05T00:43:26.419Z [[32minfo[39m] 	29 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/window_handles:  {}
+2018-12-05T00:43:26.425Z [[32minfo[39m] 	30 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/window:  {"name":"CDwindow-32335B6283BE1A812234E69CA3347C3D"}
+2018-12-05T00:43:26.432Z [[32minfo[39m] 	31 Sending GET request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/window_handles:  {}
+2018-12-05T00:43:26.438Z [[32minfo[39m] 	32 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-12-05T00:43:26.450Z [[32minfo[39m] 	33 Sending DELETE request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/session_storage:  {}
+2018-12-05T00:43:26.456Z [[32minfo[39m] 	34 Sending DELETE request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/local_storage:  {}
+2018-12-05T00:43:26.462Z [[32minfo[39m] 	35 Sending POST request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b/url:  {"url":"about:blank"}
+2018-12-05T00:43:26.485Z [[32minfo[39m] 	36 Sending elements request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {"using":"xpath","value":"/html/body/*"}
+2018-12-05T00:43:26.485Z [[32minfo[39m] 	36 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-12-05T00:43:26.505Z [[32minfo[39m] 	36 Elements response: {"sessionId":"e013d493f4c950d89c9c16c9775c385b","status":0,"value":[]}
+2018-12-05T00:43:26.514Z [[32minfo[39m] 	37 Sending DELETE request to http://localhost:9516/session/e013d493f4c950d89c9c16c9775c385b:  {}
+2018-12-05T00:43:26.627Z [[32minfo[39m] 	Sync elements
+2018-12-05T00:43:27.908Z [[32minfo[39m] 	Stopping driver
